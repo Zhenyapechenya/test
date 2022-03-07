@@ -83,7 +83,7 @@ body {
 }
 
 .video__preview {
-    height:641px;
+    height:100%;
     position: relative;
     bottom: 67px; 
     border-radius: 15px;
@@ -91,6 +91,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
+    background-size: cover;
 }
 
 .video__icon {
@@ -98,3 +99,46 @@ body {
     height:93px;
     margin-top:277px;
 }
+
+.video {
+    height:641px;
+}
+
+@media (max-width: 740px) {
+    .header {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1859px) {
+    .tabs__item {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 18px;
+        padding-top: 15px;
+        line-height: 15px;
+    }
+    .wrapper {
+        margin:auto;
+        width:75%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 930px) {
+    .tabs__item {
+        font-size: 12px;
+        padding-left: 18px;
+        padding-right: 16px;
+        padding-top: 18px;
+        line-height: 12px;
+    }
+    .wrapper {
+        margin:auto;
+        width:80%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
