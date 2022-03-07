@@ -65,6 +65,11 @@ body {
     border: 0;
     line-height: 20px;
 }
+.tabs__item:hover {
+    cursor: pointer;
+    background: #b93b45;
+    transition: background 0.8s ease;
+}
 
 .tabs :last-child {
     margin-right: 0;
@@ -102,6 +107,9 @@ body {
 
 .video {
     height:641px;
+}
+.video:hover {
+    cursor: pointer;
 }
 
 @media (max-width: 740px) {
